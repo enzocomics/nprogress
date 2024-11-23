@@ -282,9 +282,7 @@
 			: document.querySelector(Settings.parent);
 		removeClass(parent, "nprogress-custom-parent");
 		var progress = document.getElementById("nprogress");
-		// progress && removeElement(progress);
-		var spinner = progress.querySelector(Settings.spinnerSelector);
-		spinner && removeElement(spinner);
+		progress && removeElement(progress);
 	};
 
 	/**
